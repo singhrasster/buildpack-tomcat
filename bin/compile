@@ -17,7 +17,7 @@ cd $BUILD_DIR
 FILES=$(ls)
 
 cp -R $BUILDPACK_DIR/tomcat .
-cp $BUILDPACK_DIR/Procfile Procfile
+#cp $BUILDPACK_DIR/Procfile Procfile
 
 rm -rf tomcat/webapps
 
